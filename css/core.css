@@ -115,7 +115,7 @@ background: -ms-linear-gradient(top,  #fff9b1 0%,#fffcd1 100%); /* IE10+ */
 background: linear-gradient(to bottom,  #fff9b1 0%,#fffcd1 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff9b1', endColorstr='#fffcd1',GradientType=0 ); /* IE6-9 */
 }
-#offers .dates { width: 100px; height: 60px; background: #f1eba1; padding-top: 10px; border-radius: 3px; float: left; box-shadow: 0px 0px 2px #b0a951; margin-right: 10px;}
+#offers .dates { width: 98px; height: 60px; background: #f1eba1; padding-top: 10px; border-radius: 3px; float: left; box-shadow: 0px 0px 2px #b0a951; margin-right: 10px; border: 1px dashed #b0a951;}
 #offers .dates .number, #offers .dates .month { width: 100px; height: 10px; float: left; text-align: center; padding: 0px 0px 20px 0px; font-weight: bold;}
 #offers .dates .number { font-size: 1.4em;}
 #offers .event { width: 250px; float: left;}
@@ -127,6 +127,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff9b1', end
 #offers.layer { width: 494px; position: relative;  height: 100px; margin:-117px auto; z-index: 2;}
 #offers.layer2 { width: 484px; position: relative;  height: 100px; margin: -117px auto; z-index: 1;}
 .dropper {  position: relative; top: -105px;margin: 0 auto;width: 600px; height: 100px;}
+
+.powered_by { width: 200px; margin: 0 auto; text-align: center; color: #774f1d; text-shadow: 0px 1px 0px #f3d3ac;}
+h1.rooble { background: url(../images/powered_rooble.png) center no-repeat; display: inline-block; width: 100px; height: 30px; opacity: 0.6; margin-top: -10px;}
+h1.rooble:hover { opacity: 1;}
 /* RESET */
 
 body,
