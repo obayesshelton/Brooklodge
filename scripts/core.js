@@ -33,6 +33,12 @@ console.log(square_width)
 $('.home').click(function () {
          goToByScroll("#banner")
         });
+$('.btn').click(function () {
+         showInfo();
+        });
+$('.btn_close').click(function () {
+         hideInfo();
+        });
 
 $(".facility").hoverIntent(config)
 });

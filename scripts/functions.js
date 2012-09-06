@@ -75,3 +75,15 @@ function dropper() {
         top: "0"
         }, 600);
 };
+
+function showInfo() {
+      $('.layer').animate({
+        marginTop: "-10px" 
+        },600);
+};
+
+function hideInfo() {
+      $('.layer').animate({
+        marginTop: "-243px" 
+        },600);
+};
